@@ -1,0 +1,53 @@
+<div class="isection1" style="background-image: url(laptop.jpeg);
+    min-height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-bottom: 350px;">
+
+        <div class="sec1head"><h1>welcome to TeamSunrisers!</h1></div>
+        <div class="sec1des"><p><b>Where imagination meets reality</b></p></div>
+    </div>
+    
+    <div class="isection2">
+      
+    </div>
+
+
+.isection1 .sec1head{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    font-size: 23px;
+    position: relative;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    -webkit-text-stroke: black 2px;
+    animation: sec1head;
+    animation-duration: 1s;
+    animation-delay: none;
+    animation-iteration-count: 1;
+    animation-timing-function: none;
+}
+
+@keyframes sec1head{
+    from{
+      padding-left: 650px;
+    }
+    to{
+      padding-left: 0;
+    }
+}
+
+.isection1 .sec1des{
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000000;
+    -webkit-text-stroke: rgb(255, 255, 255) .3px;
+    animation: sec1head;
+    animation-duration: 1s;
+    animation-delay: none;
+    animation-iteration-count: 1;
+    animation-timing-function: none;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="pricing-style.css">
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+    <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="Our-Projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="logo.png" alt="" class="navlogo">TeamSunrisers </a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
+                <li class="hideOnMobile"><a href="Our-Projects.html">Projects</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="hideOnMobile"><a href="pricing.html">Pricing</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+<section class="pricing">
+    <br><br><div class="card-wrapper">
+        <div class="card-header"><img src="1box.png"><h1>SImple Site</h1></div>
+        <div class="card-details">
+            <p> Simple </p>
+            <p>No Sub-Domain</p>
+            <p>Free SSL</p>
+            <p>24/6 Customor Support</p>
+        </div>
+        <div class="card-price">
+            <p><sup>$15</sup><sub>/Month</sub></p>
+        </div>
+        <div class="card-button"><button><a href="#">Order Now</a></button></div>
+    </div>
+    <div class="card-wrapper">
+        <div class="card-header"><img src="2box.png"><h1>Intermidiate Site site</h1></div>
+        <div class="card-details">
+            <p> Two Page Site </p>
+            <p>2 Sub-Domain</p>
+            <p>Free SSL</p>
+            <p>24/7 Customor Support</p>
+        </div>
+        <div class="card-price">
+            <p><sup>$25</sup><sub>/Month</sub></p>
+        </div>
+        <div class="card-button"><button><a href="#">Order Now</a></button></div>
+    </div>
+    <div class="card-wrapper">
+        <div class="card-header"><img src="3boxes.png"><h1>Professional Site</h1></div>
+        <div class="card-details">
+            <ul><li><p> Three Page Site </p><li>
+            <li><p>3 Sub-Domain</p></li>
+            <li><p>Free SSL</p></li>
+           <li> <p>24/6 Premium Support</p> </li></ul>
+        </div>
+        <div class="card-price">
+            <p><sup>$45</sup><sub>/Month</sub></p>
+        </div>
+        <div class="card-button"><button><a href="#">Order Now</a></button></div>
+    </div>
+</section>
+<!-- This is scrippt section donot edit!! -->
+<script>
+ function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+ }
+  
+ function hideSidebar(){
+     const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+
+ }
+</script>
+    <!-- The script section ends here!! -->
+
+    <footer><strong><h3 class="foottxt">©TeamSunrisers All Rights Reserved | Mail - teamsunrisers.in@gmail.com</h3></strong></footer>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+    <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="Our-Projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="logo.png" alt="" class="navlogo">TeamSunrisers </a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
+                <li class="hideOnMobile"><a href="Our-Projects.html">Projects</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="hideOnMobile"><a href="pricing.html">Pricing</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+        <div class="section1" style="background-image: url();
+        min-height: 40vh;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        padding-bottom: 350px;">
+        
+<div class="section1"> </div>
+    <div class="section2"></div>
+
+</div>
+<div class="section3"></div>
+<!-- This is scrippt section donot edit!! -->
+<script>
+ function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+ }
+  
+ function hideSidebar(){
+     const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+
+ }
+
+</script>
+    <!-- The script section ends here!! -->
+
+    <footer><strong><h3 class="foottxt">©TeamSunrisers All Rights Reserved | Mail - teamsunrisers.in@gmail.com</h3></strong></footer>
+    
+</body>
+</html>

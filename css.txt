@@ -1,0 +1,7 @@
+ .section1{background-image: url(1.png);
+height: 70vh;}
+.section2{background-image: url(2.png);
+    padding-top: 10px;
+    height: 70vh;}
+.section3{background-image: url(3.png);
+    height: 70vh;}
